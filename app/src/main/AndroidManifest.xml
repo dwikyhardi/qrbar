@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.handrikgunawan.bookinglokerperpus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        >
+        <activity android:name=".booking" />
+        >
+        <activity android:name=".loker1" />
+        >
+        <activity android:name=".loker2" />
+        >
+        <activity android:name=".loker3" />
+        >
+        <activity android:name=".booking1" />
+        >
+        <activity android:name=".booking2" />
+        >
+        <activity android:name=".booking3" />
+        >
+        <activity android:name=".loker4" />
+        >
+        <activity android:name=".loker5" />
+        >
+        <activity android:name=".loker6" />
+        >
+        <activity android:name=".loker7" />
+        >
+        <activity android:name=".loker8" />
+        >
+        <activity android:name=".loker9" />
+        >
+        <activity android:name=".login" />
+        >
+        <activity android:name=".Profile" />
+        >
+        <activity android:name=".about" />
+        >
+        <activity android:name=".latestbook1" />
+        >
+        <activity android:name=".latestbook2" />
+        >
+        <activity android:name=".latestbook3" />
+        <![CDATA[>
+        >
+
+    ]]>
+        <activity android:name=".Regist"></activity>
+    </application>
+
+</manifest>
